@@ -18,6 +18,10 @@
         case 'nationalites' :
             include('Contrôleurs/nationaliteContrôleur.php');
         break;
+
+        case 'continents' :
+            include('Contrôleurs/continentContrôleur.php');
+        break;
     }
 
     include "Vues/footer.php";
