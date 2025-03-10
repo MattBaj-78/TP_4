@@ -14,8 +14,8 @@
         </thead>
 
         <tbody>
-            <?php
-            foreach($LesNationalites as $nationalite)
+        <?php 
+            foreach($lesnationalites as $nationalite)
             {
                 echo "<tr>";
                     echo "<td>$nationalite->num</td>";
@@ -23,7 +23,7 @@
                     echo "<td>1</td>";
                 echo "</tr>";
             }
-            ?>
+        ?>
         </tbody>
     </table>
 </div>

@@ -66,6 +66,14 @@
           <a class="dropdown-item" href="index.php?uc=nationalites&action=add">Ajouter une nationalité</a>
         </div>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Continent</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="index.php?uc=nationalites&action=list">Liste des continents</a>
+          <a class="dropdown-item" href="index.php?uc=nationalites&action=add">Ajouter un continent</a>
+        </div>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Recherche ..." aria-label="Search">
