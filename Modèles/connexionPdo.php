@@ -4,7 +4,7 @@
 *	Les attributs sont tous statiques, les 4 premiers pour la connexion
 *	$monPdo qui contiendra l'unique instance de la classe
 */
-class MonPdo
+class monPdo
 {
 
 private static $serveur='mysql:host=srvmysql.btssio.dedyn.io';

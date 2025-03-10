@@ -11,7 +11,7 @@
 
         case 'add' :
             $mode="Ajouter";
-            include('Vues/formnationalite.php');
+            include('Vues/Nationalité/formNationalite.php');
         break;
 
         case 'update' :

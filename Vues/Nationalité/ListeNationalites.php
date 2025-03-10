@@ -1,11 +1,3 @@
-<?php include "Vues/header.php";
-include "connexion.php";
-$req=$monPdo->prepare("select * from nationalite");
-$req->setFetchMode(PDO::FETCH_OBJ);
-$req->execute();
-$LesNationalites=$req->fetchAll();
-?>
-
 <div class="container mt-5">
     <div class="row pt-3">
         <div class="col-9"> <h2>Liste des Nationalités</h2> </div>
@@ -36,6 +28,6 @@ $LesNationalites=$req->fetchAll();
     </table>
 </div>
 
-<?php include "footer.php";
+<?php include "Vues/footer.php";
 
 ?>
