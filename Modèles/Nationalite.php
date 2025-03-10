@@ -83,7 +83,6 @@
         {
             $req=MonPdo::getInstance()->prepare("select n.num as numero, n.libelle as 'libNation', c.libelle as 'libnationalite' from nationalite n, nationalite c where n.numnationalite=c.num");
             $req->setFetchMode(PDO::FETCH_OBJ);
-            $req->execute();
             $LesResultats=$req->fetchAll();
             return $LesResultats;
         }

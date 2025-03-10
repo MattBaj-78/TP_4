@@ -1,4 +1,4 @@
-<?php include "header.php";
+<?php include "Vues/header.php";
 include "connexion.php";
 $req=$monPdo->prepare("select * from nationalite");
 $req->setFetchMode(PDO::FETCH_OBJ);

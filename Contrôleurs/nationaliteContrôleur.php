@@ -6,7 +6,7 @@
     {
         case 'list' :
             $lesnationalites=nationalite::findAll();
-            include('Vues/Listenationalites.php');
+            include('Vues/Nationalité/ListeNationalites.php');
         break;
 
         case 'add' :
